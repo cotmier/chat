@@ -3,35 +3,24 @@
 #### 介绍
 简单使用open AI 对话
 
-#### 软件架构
+#### 运行效果
+![img.png](image/operation_effect.png)
 软件架构说明
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 项目配置
+1. 需要你自己 ChatGPT 账号的 API KYE 获取地址：https://platform.openai.com/
+2. 在 Main.java 中配置即可![img.png](image/main.png)
+3. 点击右上角的 View API keys ![img.png](image/img.png)
+4. 如果没有的话去创建一个自己的 key![img_1.png](image/img_1.png)
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 需海外服务器安装 JDK 版本1.8
+```shell
+yum install -y java-1.8.0-openjdk.x86_64
+```
+2. 项目打包后在 `out` 目录下找到 `jar` 文件上传至服务器即可
+3. 启动项目
+```shell
+java -jar chat.jar
+```

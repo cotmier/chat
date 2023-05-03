@@ -20,7 +20,7 @@ public class Main {
 
     public static final String URL = "https://api.openai.com/v1/chat/completions";
     // 你的 API KEY
-    public static final String APT_KEY = "sk-xxxxxxxx";
+    public static final String APT_KEY = "sk-xxxxxx";
 
     public static void main(String[] args) {
         ArrayList<Message> list = new ArrayList<>();
